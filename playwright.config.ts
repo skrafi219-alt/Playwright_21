@@ -5,6 +5,7 @@ export default defineConfig({
   testDir :'./tests',
   fullyParallel : true,
   timeout:30*1000,
+  reporter:'html',
 
   use : {
     browserName:'chromium',
